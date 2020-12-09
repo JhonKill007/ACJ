@@ -1,0 +1,95 @@
+.container-perfil{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: white;
+    text-align: center;
+}
+
+.perfil-img{
+    border: 3px solid black;
+    width: 115px;
+    height: 115px;
+    margin: auto;
+    border-radius: 50%;
+    
+}
+
+.cover-background{
+    width: 100%;
+    background-color: blue;
+}
+
+.perfil-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.nav-main-perfil{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+
+.nav-box-pefil{
+    width: 330px;
+    margin: auto;
+    /* border: 1px solid red; */
+    background: blue;
+}
+
+.nav-perfil-menu{
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-perfil-menu li{
+    padding: 10px;
+    margin-left: 23px;
+    border-radius: 5px;
+}
+
+.nav-perfil-menu li a{
+    text-decoration: none;
+}
+
+.nav-perfil-menu li:hover{
+    background-color: grey;
+    color: #460a68;
+}
+
+.container-opcions{
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+.opcions{
+    width: 80%;
+    /* border: 1px solid yellow; */
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.opcions div{
+    width: 40%;
+    border-radius: 15px;
+    /* border: 1px solid green; */
+    background: linear-gradient(#0080D7,#FF7F28);
+
+}
+
+.opcions div img{
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+@media(max-width: 387px){
+    .nav-main-perfil{
+        width: 100%;
+    }
+
+}

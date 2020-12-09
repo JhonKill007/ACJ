@@ -1,0 +1,25 @@
+.complete-name {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.email-box {
+    margin-bottom: 0px;
+}
+
+.box-ag div{
+    margin: 13px;
+}
+
+.container-signup{
+    grid-template-columns: 1fr;
+}
+
+.container-form{
+    margin: auto;
+}
+
+.green{
+    color: green;
+    font-size: 15px;
+}

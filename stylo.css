@@ -1,0 +1,442 @@
+/* todo */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+
+a{
+    color:white;
+    /* color: purple; */
+}
+
+body{
+    background-color: black;
+    color: black;
+}
+
+
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #0A1949;
+    display: none;
+    margin-top: 15px;
+    padding: 5px;
+    
+}
+
+.menu-btn-two{
+    position: absolute;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #FF7F28;
+    margin-top: -17px;
+    margin-left: -30px;
+    padding: 5px;
+    
+}
+
+
+.bar-main ul.bar-menu{
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #2f3640;
+    height: 100%;
+    padding: 30px;
+    opacity: .9;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.bar-main ul{
+    list-style: none;
+
+}
+
+.bar-menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.bar-menu li{
+    padding: 10px;
+}
+
+.bar-menu li:hover{
+    border-bottom: 2px solid #FF7F28;
+}
+
+.bar-menu img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.container-one{
+    width: 100%;
+}
+
+.barra-inicio-new{
+    background: linear-gradient(to right,black, blue);
+    /* position: fixed; */
+    /* border: 1px solid green; */
+    /* height: 100px; */
+}
+.nobus{
+    color: white;
+    text-align: center;
+    
+}
+
+
+.nav-main{
+    width: 90%;
+    margin: auto;
+    font-size: 17px;
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    height: 100px;
+    
+    
+}
+
+.nav-main ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    margin-top: 0;
+}
+
+.nav-main li{
+    padding: 10px;
+}
+
+/* logo */
+#logo{
+    margin-top: -10px;
+    margin-left: 30px;
+    width: 187.5px;
+    height: 105.5px;
+    /* margin-bottom: 7px; */
+}
+
+
+/* carrito */
+#icon-logo{
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+/* buscar */
+#search-box{
+    width: 400px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#search-box:hover{
+    border: 2px solid black;
+}
+
+#search-boton{
+    width: 80px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:  #FF7F28;
+}
+
+#search-boton:hover{
+    border: 2px solid black;
+}
+
+#combo-box{
+    display: none;
+    height: auto;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:  #FF7F28;
+}
+
+#combo-box:hover{
+    border: 2px solid black;
+}
+
+#log-boton{
+    display: none;
+    width: 60px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:  #FF7F28;
+}
+
+#log-boton:hover{
+    border: 2px solid black;
+}
+
+
+/* container-two */
+.container-Two{
+    width: 90%;
+    margin: auto;
+}
+
+
+/* cuerpo de la pag*/
+
+/* nav cuerpo */
+
+.nav-main-two{
+    width: 90%;
+    margin: auto;
+    font-size: 13px;
+    padding: 20px 0;
+    /* border: 1px solid black; */
+}
+
+.nav-box{
+    width: 400px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.nav-main-two ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-main-two li{
+    padding: 10px;
+}
+
+.nav-main-two ul li a{
+    text-decoration: none;
+}
+
+.nav-main-two ul li a:hover{
+    border-bottom:2px solid #FF7F28 ;
+}
+
+
+/* social */
+.social{
+    margin: 50px;
+}
+
+.social p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a{
+    margin: 0 30px;
+}
+
+.links a i{
+    font-size: 3rem;
+}
+
+/* footer links */
+
+.footer-links{
+    background: linear-gradient(to right,black, blue);
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-container ul{
+    margin: 0 auto;
+    list-style: none;
+}
+
+.footer-container ul li{
+    line-height: 2.8;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer-container ul li a{
+    text-decoration: none;
+}
+
+.footer{
+    background: linear-gradient(to right,black, blue);
+    color: #616161;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Times', sans-serif;
+}
+
+.footer h3{
+    font-size: 20px;
+}
+
+@media(max-width: 1138px){
+
+    .menu-btn{
+        display: block;
+    }
+    .nav-main{
+        height: 190px;
+    }
+
+    .bar-main ul.bar-menu{
+        display: block;
+        transform: translateX(-400px);
+        transition: .5s ease-in-out;
+    }
+
+    .bar-main ul.bar-menu.show{
+        transform: translateX(0);
+    }
+
+    .nav-main ul{
+        /* border: 1px solid black; */
+        display: block;
+        justify-content: space-between;
+        width: 70%;
+        height: auto;
+        margin: auto;
+    }
+    #logo{
+        margin-left: 250px;
+    }
+    #icon-logo{
+        display: none;
+    }
+    #log-boton{
+        display: none;
+    }
+}
+@media(max-width: 1040px){
+    #logo{
+        margin-left: 200px;
+    }
+    #search-box{
+        width: 300px;
+    }
+}
+
+@media(max-width: 885px){
+    #logo{
+        margin-left: 150px;
+    }
+    #search-box{
+        width: 250px;
+    }
+}
+
+@media(max-width: 805px){
+    #search-box{
+        width: 220px;
+    }
+    #search-boton{
+        width: 60px;
+    }
+}
+
+@media(max-width: 725px){
+    #logo{
+        margin-left: 100px;
+    }
+    #search-box{
+        width: 200px;
+    }
+}
+
+@media(max-width: 690px){
+    
+    #combo-box{
+        width: 90px;
+    }
+}
+
+@media(max-width: 620px){
+    
+    #combo-box{
+        width: 60px;
+    }
+}
+
+@media(max-width: 575px){
+    
+    #logo{
+        margin-left: 60px;
+    }
+    #search-box{
+        width: 150px;
+    }
+}
+
+@media(max-width: 481px){
+    
+    .nav-main ul{
+        width: 80%;
+    }
+    #logo{
+        margin-left: 60px;
+    }
+    #search-box{
+        width: 150px;
+    }
+    
+}
+
+@media(max-width: 415px){
+
+    #search-box{
+        width: 200px;
+    }
+    
+}
+
+@media(max-width: 387px){
+
+    .nav-box{
+        width: 100%;
+        /* border: 1px solid white; */
+        transform: translateX(-17px);
+    }
+    #logo{
+        margin-left: 40px;
+    }
+    #search-box{
+        width: 100px;
+    }
+    #search-box{
+        width: 180px;
+    }
+    
+}

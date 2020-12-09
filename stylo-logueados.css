@@ -1,0 +1,17 @@
+.img-barra{
+    /* border: 1px solid black; */
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+}
+
+.img-barra img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+@media(max-width: 1138px){
+    #usuario-photo{
+        display: none;
+    }
+}
